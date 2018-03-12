@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+}
+
+.app {
+	text-align: center;
+}
+
+.hero {
+	background: url(https://images.unsplash.com/photo-1491336477066-31156b5e4f35?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b7e9246619019d54ead8fe9ea7c821a9&auto=format&fit=crop&w=1350&q=80) no-repeat;
+	background-size: 100vw;
+	width: 100vw;
+	height: 1100px;
+	color: white;
+  opacity: 0.5;
+}
+
+.searchForm {
+	margin: auto;
+  text-align: center;
+	background: rgba(0,0,0,0.85);
+  position: relative;
+	top: 30%;
+	padding: 40px;
+	border: 10px green solid;
+	border-radius: 5px;
+  font-size: 30px;
+  }
+
+.searchForm input {
+	border-radius: 13px;
+  height: 30px;
+}
